@@ -1,6 +1,6 @@
 # Statistical research and data science portfolio
 
-Four reproducible projects connecting biostatistics, applied economics, quantitative risk, and data science. Each project includes its analysis code, assumptions, results, tests, and an interview walkthrough.
+Four reproducible projects connecting biostatistics, applied economics, quantitative risk, and data science. Each project includes its analysis code, assumptions, results, and tests.
 
 | Role | Project | Main finding |
 | --- | --- | --- |
@@ -27,7 +27,3 @@ python -m pip install -r requirements.txt
 | `bike-demand-monitoring` | `OMP_NUM_THREADS=2 python forecast.py train --output results/local` |
 
 From a project directory run `python -m unittest discover -s tests -v`. Example results are tracked in each project's `results/` directory. The three empirical projects download checksum-verified public source files on first run. The cluster study generates data from a documented simulation model. Raw data, local outputs, Python environments, and fitted binary models are excluded from version control.
-
-## Interview preparation
-
-Start with the decision and the unit of analysis. Name the comparison, justify the baseline, show how you verified the result, then explain a limitation that could change the conclusion. Each project includes an experiment to reproduce or extend. Walk through your own run and describe the changes you made and checked.
