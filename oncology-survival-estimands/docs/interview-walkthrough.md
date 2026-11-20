@@ -1,4 +1,4 @@
-# Technical interview walkthrough
+# Technical walkthrough
 
 ## Questions to prepare
 
