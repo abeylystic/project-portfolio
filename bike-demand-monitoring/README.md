@@ -52,7 +52,7 @@ python forecast.py score --model results/local/model.joblib \
   --history results/local/example-history.csv --target '2012-12-27 16:00'
 ```
 
-## Interview walkthrough
+## Example walkthrough
 
 Draw the prediction timeline and explain why a random split or a simple row-based lag can hide leakage or misalign observations. Walk through September and describe how an alert could trigger a freshness check, baseline comparison, and investigation of underprediction before deciding to retrain. Extend the analysis by simulating a two-hour label delay. Modify the available lags and report how much skill remains with persistence removed.
 
