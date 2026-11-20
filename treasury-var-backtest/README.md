@@ -42,7 +42,7 @@ python -m unittest discover -s tests -v
 python backtest.py --output results/local
 ```
 
-## Interview walkthrough
+## Example Task walkthrough
 
 Derive the dollar loss for a 10 bp increase at the 10-year point. Trace exactly which losses can affect a forecast at time t. Explain why a volatility estimate that updates rapidly can still understate the tail when standardized shocks are heavy-tailed. Compare the models using coverage, consecutive exceptions, mean thresholds, and quantile loss. Then shorten the historical window to 250 days and explain the tradeoff between adaptation and having enough observations to estimate a 99th percentile.
 
