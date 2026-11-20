@@ -48,6 +48,6 @@ python -m unittest discover -s tests -v
 python design.py --output results/local
 ```
 
-## Interview walkthrough
+## Example walkthrough
 
 Explain why the site determines randomization, why the paired t analysis uses the number of pairs for its degrees of freedom, and why the participant-level standard error was too small. Then change the site size from 30 to 60 and recalculate power. Compare it with adding sites at the original site size. The variance formula shows why increasing enrollment within the same site has diminishing returns when the ICC is high.
